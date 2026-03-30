@@ -1,46 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-      <nav>
-        <ul>
-            <li><img src="https://https://i.pinimg.com/originals/77/91/1a/77911ad550c178f4e9c11e13db75dc97.png?nii=t" /></li>
-            <li>About me</li>
-            <li>Photo</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <container class="container">
+      <header>
+        <div>
+          <img id="logo" class="img" src="cv/rs-school-logo.svg" alt="img" />
+        </div>
+        <div><img class="img" src="cv/1M.jpg" alt="minion" /></div>
+        <nav>
+          <ul>
+            <li><a href="#logo">Logo</a></li>
+            <li><a href="#section1">About me</a></li>
+            <li><a href="#section1">info</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
         <h1>My CV</h1>
-        <h2>About me</h2>
-        <p>
-            Hi, I’m Eduard Kandratskou, I’m from Gomel.
-            I graduated from the Belarusian State University of Transport in 2004 and also I have second education web-designer;
-            I’m engineer(freelancer). I have experience create web sites and technical drawing;
-             I like swimming and coding;
-           I like studying and get new experience;
-           I have english level - A2/B1;
-        </p>
-        <p>
-            My contacts:
-             web page - kondratkov.of.by
-             edyard2002@mail.ru
-                 8(029) 732-10-63
-            
-            <a href="https://github.com/ekandratskou"> My GitHub</a>
-        </p>
-    </main>
-    <footer>
-        <a href="https://github.com/ekandratskou/rsschool-cv"> My GitHub</a>
-        <a href="https://www.facebook.com/RollingScopesSchool/"> My GitHub</a>
-        
-    </footer>
-</body>
+        <h2 id="section1">About me</h2>
+        <ul>
+          <li>Hi, I’m Eduard Kandratskou, I’m from Gomel</li>
+          <li>
+            I graduated from the Belarusian State University of Transport in
+            2004 and also
+          </li>
+          <li>I have second education web-designer;</li>
+          <li>
+            I’m engineer(freelancer). I have experience create web sites and
+            technical drawing;
+          </li>
+          <li>
+            I like swimming and coding;
+            <div>
+              Code example
+              <pre><code>
+function sayHello() {
+    console.log("Hello, World!");
+}
+</code></pre>
+            </div>
+          </li>
+
+          <li>
+            I like studying and get new experience; I have english level -
+            A2/B1;
+          </li>
+        </ul>
+        <div>
+          My contacts: web page -
+          <a href="https://kondratkov.of.by">My site</a>
+          <div><a href="#">edyard2002@mail.ru</a> 8(029) 732-10-63</div>
+
+          <a href="https://github.com/ekandratskou"> My GitHub</a>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <a href="https://github.com/ekandratskou/rsschool-cv"> My GitHub</a>
+          <div>
+            <a href="https://rs.school/courses/javascript-ru"> Course</a>
+          </div>
+        </div>
+
+        <div>2026</div>
+      </footer>
+    </container>
+  </body>
 </html>
+
 
